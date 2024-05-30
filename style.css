@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(./curve.avif);
+    background-size: cover;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 1rem 0;
+  }
+  header h1 {
+    margin: 0;
+  }
+  main {
+    flex: 2;
+    padding: 2rem;
+  }
+  main h2 {
+    border-bottom: 1px solid #333;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+  }
+  main p {
+    line-height: 1.5;
+  }
+  aside {
+    flex: 1;
+    padding: 2rem;
+    background-color: #f5f5f5;
+  }
+  aside h3 {
+    margin-top: 0;
+  }
+  @media (max-width: 768px) {
+    main,
+    aside {
+      flex: 100%;
+    }
+  }
